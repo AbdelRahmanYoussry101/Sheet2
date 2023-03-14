@@ -1,0 +1,128 @@
+ ------------------------
+|        Person          |
+|------------------------|
+| - name: String          |
+| - address: String       |
+| - phoneNumber: String   |
+| - emailAddress: String  |
+|------------------------|
+| + Person(name: String,  |
+|          address: String,|
+|          phoneNumber:   |
+|          String,        |
+|          emailAddress:  |
+|          String)        |
+| + getName(): String     |
+| + getAddress(): String  |
+| + getPhoneNumber():     |
+|   String               |
+| + getEmailAddress():    |
+|   String               |
+| + setName(name: String) |
+| + setAddress(address:   |
+|   String)              |
+| + setPhoneNumber(phoneN:|
+|   String)              |
+| + setEmailAddress(email:|
+|   String)              |
+| + toString(): String    |
+ ------------------------
+
+ ------------------------
+|        Student         |
+|------------------------|
+| - status: String        |
+|------------------------|
+| + Student(name: String, |
+|           address:      |
+|           String,       |
+|           phoneNumber:  |
+|           String,       |
+|           emailAddress: |
+|           String,       |
+|           status: String)|
+| + getStatus(): String   |
+| + setStatus(status:     |
+|   String)              |
+| + toString(): String    |
+ ------------------------
+
+ ------------------------
+|        Employee        |
+|------------------------|
+| - office: String        |
+| - salary: double        |
+| - dateHired: Date       |
+|------------------------|
+| + Employee(name: String,|
+|            address:     |
+|            String,      |
+|            phoneNumber: |
+|            String,      |
+|            emailAddress:|
+|            String,      |
+|            office:      |
+|            String,      |
+|            salary:      |
+|            double,      |
+|            dateHired:   |
+|            Date)        |
+| + getOffice(): String   |
+| + getSalary(): double   |
+| + getDateHired(): Date  |
+| + setOffice(office:     |
+|   String)              |
+| + setSalary(salary:     |
+|   double)              |
+| + setDateHired(date:    |
+|   Date)                |
+| + toString(): String    |
+ ------------------------
+
+ ------------------------
+|         Faculty        |
+|------------------------|
+| - officeHours: String   |
+| - rank: String          |
+|------------------------|
+| + Faculty(name: String, |
+|           address:      |
+|           String,       |
+|           phoneNumber:  |
+|           String,       |
+|           emailAddress: |
+|           String,       |
+|           office:       |
+|           String,       |
+|           salary:       |
+|           double,       |
+|           dateHired:    |
+|           Date,         |
+|           officeHours:  |
+|           String,       |
+|           rank: String) |
+| + getOfficeHours():     |
+|   String               |
+| + getRank(): String     |
+| + setOfficeHours(hours: |
+|   String)              |
+| + setRank(rank: String) |
+| + toString(): String    |
+ ------------------------
+
+ ------------------------
+|         Staff          |
+|------------------------|
+| - title: String         |
+|------------------------|
+| + Staff(name: String,   |
+|         address: String,|
+|         phoneNumber:   |
+|         String,        |
+|         emailAddress:  |
+|         String,        |
+|         office: String, |
+|         salary: double, |
+|         dateHired: Date,|
+|         title: String) |
+| + getTitle
